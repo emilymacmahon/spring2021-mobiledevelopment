@@ -19,11 +19,11 @@ class Sidebar extends Component {
       // TODO: Add (concatenate) the value of each item to the variable responseHTML. 
 
       // Each should be wrapped in <li></li>
-      
-      responseHTML += '<li>' + Sidebar + '</li>';
+
+      responseHTML += '<li>' + item + '</li>';
     });
 
-
+    responseHTML += '<ul>' + responseHTML + '<ul>';
     
     return responseHTML;
   }

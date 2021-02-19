@@ -1,12 +1,14 @@
+import React from 'react';
 
-import './App.js';
 
-function Example() {
-  return (
-    <div>
-      <p> hi, my name is Emily</p>
-    </div>
-  );
+class Examples extends React.Component() {
+  render(){
+    return <p> hi, my name is Emily</p>;
+    
+    }
 }
 
-export default Example;
+export default Examples;
+
+//I named the class Examples with an s because I named my component folder Example with
+//the capitol E and did not want to remake it or have them get confused with rendering

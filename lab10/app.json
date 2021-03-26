@@ -1,0 +1,12 @@
+{
+  "name": "lab10",
+  "displayName": "lab10",
+  "expo": {
+    "name": "lab10",
+    "slug": "lab10",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
